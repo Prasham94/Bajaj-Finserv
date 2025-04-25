@@ -1,0 +1,73 @@
+/* Entire page white */
+.doctor-listing {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Top blue bar */
+  .top-bar {
+    background: #1e5bb8;
+    padding: 16px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* SearchBar centered */
+  .top-bar .search-bar-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  /* White container with shadow */
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 24px auto 0;   /* 24px gap under top-bar */
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Layout: sidebar + main */
+  .content {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    flex: 0 0 300px;
+    overflow-y: auto;
+  }
+  
+  /* Main content area */
+  .main {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  /* Vertical list of doctor cards */
+  .doctor-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* No-results message */
+  .no-doctors-message {
+    color: #555;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 40px;
+  }
+  

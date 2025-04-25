@@ -1,0 +1,83 @@
+.filter-panel-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Header with Filters title and Clear All */
+  .filter-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .filter-panel-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .clear-all-btn {
+    background: none;
+    border: none;
+    color: #1e5bb8;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
+  
+  .clear-all-btn:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section styling */
+  .filter-section {
+    margin-bottom: 24px;
+  }
+  
+  .filter-section h4 {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Search input */
+  .filter-search {
+    width: 90%;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+  }
+  
+  /* Lists */
+  .filter-list {
+    max-height: 180px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .no-specs {
+    font-size: 0.9rem;
+    color: #888;
+    text-align: center;
+    margin-top: 8px;
+  }
+  
+  /* Labels and inputs */
+  .filter-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+  }
+  
+  .filter-label input {
+    margin: 0;
+  }
+  
